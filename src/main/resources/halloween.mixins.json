@@ -5,7 +5,8 @@
     "compatibilityLevel": "JAVA_8",
     "mixins": [
         "EntityPlayerMixin",
-        "SoundManagerMixin"
+        "SoundManagerMixin",
+        "accessors.EntitySnowballAccessor"
     ],
     "client": [
     ],
