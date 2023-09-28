@@ -1,16 +1,17 @@
 {
-    "required": true,
-    "minVersion": "0.8",
-    "package": "dev.tomat.halloween.mixin",
-    "compatibilityLevel": "JAVA_8",
-    "mixins": [
-        "EntityPlayerMixin",
-        "SoundManagerMixin",
-        "accessors.EntitySnowballAccessor"
-    ],
-    "client": [
-    ],
-    "injectors": {
-        "defaultRequire": 1
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.tomat.halloween.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityPlayerMixin",
+    "EntitySnowballMixin",
+    "SoundManagerMixin",
+    "accessors.EntitySnowballAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
   }
 }
